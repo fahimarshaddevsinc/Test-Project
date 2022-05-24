@@ -99,7 +99,7 @@ describe("1st Test Suite", () => {
         })
     })
 
-    it('Test Theme Changes from dop-down selects', () => {
+    it('Test Theme Changes from drop-down selects', () => {
         cy.visit('/')
 
         cy.get('nav nb-select').click().then( dropdown => {
