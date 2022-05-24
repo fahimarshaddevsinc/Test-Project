@@ -22,7 +22,7 @@ describe('testCasesWIthPageObjectDesignPattern', () => {
         navigateTo.loginPage()
         navigateTo.registerPage()
         navigateTo.requestPasswordPage()
-        navigateTo.resetPasswordPage()
+        // navigateTo.resetPasswordPage()
     })
 
 
