@@ -100,14 +100,24 @@ export class smartTablePage {
         cy.get('ng2-smart-table-pager nav').find('ul li').eq(2).find('span').eq(1).should('contain', '(current)')
     }
     
-    check_pagination_is_disabled() {
-        cy.get('ng2-smart-table-pager nav').find('ul li').eq(0).then ( elem  => {
+    check_pagination_is_disabled(type) {
+        let arr = []
+        if (type === 'previous') {
+            arr = [0, 1]
+        }
+        else if (type === 'next') {
+            arr = [6, 7]
+            cy.get('ng2-smart-table-pager nav').find('ul li').eq(7).click()
+        }
+        cy.get('ng2-smart-table-pager nav').find('ul li').eq(arr[0]).then ( elem  => {
             expect(elem).to.have.class('disabled')
         })
-        cy.get('ng2-smart-table-pager nav').find('ul li').eq(1).then ( elem  => {
+        cy.get('ng2-smart-table-pager nav').find('ul li').eq(arr[1]).then ( elem  => {
             expect(elem).to.have.class('disabled')
         })
     }
+
+    
 
 }
 

@@ -59,7 +59,7 @@ describe('To test table SEARCH functionality', () => {
     })
 })
 
-describe('To test table PAGINATION', () => {
+describe.only('To test table PAGINATION', () => {
 
     beforeEach('check smart table is opening', () => {
         cy.visit('/')
@@ -70,7 +70,11 @@ describe('To test table PAGINATION', () => {
         onSmartTablePage.check_table_default_page()
     })
 
-    it.only ('Should verify when on page 1 the going to previous page pagination is working', () => {
-        onSmartTablePage.check_pagination_is_disabled()
+    it ('Should verify when on page 1 the previous page paginations are disabled', () => {
+        onSmartTablePage.check_pagination_is_disabled('previous')
+    })
+
+    it ('Should verify when on last page the next page paginations are disabled', () => {
+        onSmartTablePage.check_pagination_is_disabled('next')
     })
 })
