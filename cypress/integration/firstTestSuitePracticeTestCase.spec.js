@@ -164,5 +164,3 @@ describe('Alerts and Browser Events', () => {
     })
     
 })
-
-
