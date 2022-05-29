@@ -59,7 +59,8 @@ describe('To test table SEARCH functionality', () => {
     })
 })
 
-describe.only('To test table PAGINATION', () => {
+describe ('To test table PAGINATION', () => {
+    
 
     beforeEach('check smart table is opening', () => {
         cy.visit('/')

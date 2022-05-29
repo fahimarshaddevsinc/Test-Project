@@ -17,10 +17,8 @@ export class treeGridPage {
 
 
     //TEST Methods
-    check_grid_search_functionality(arr) {
-        cy.wrap(arr).each( arr => {
-            this.enter_in_search_field(arr)
-        })
+    check_grid_expand_collapse_functionality() {
+        cy.get('table tbody').find('tr').first().click().wait(1000)
     }
 
 }
