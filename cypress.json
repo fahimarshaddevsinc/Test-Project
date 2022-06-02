@@ -6,5 +6,9 @@
   ],
   "viewportHeight": 1080,
   "viewportWidth": 1920,
-  "projectId": "45q8pa"
+  "projectId": "45q8pa",
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  }
 }
