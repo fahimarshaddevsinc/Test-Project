@@ -1,0 +1,569 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 15,
+    "passes": 15,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-02T16:07:20.219Z",
+    "end": "2022-06-02T16:10:03.701Z",
+    "duration": 127052,
+    "testsRegistered": 15,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f9c95b59-afa6-4392-b454-0f18b178656d",
+      "title": "",
+      "fullFile": "cypress/integration/formLayoutsPageTestCases.spec.js",
+      "file": "cypress/integration/formLayoutsPageTestCases.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8e792976-b3ed-421d-98b6-056663e01d72",
+          "title": "Should correctly submit all forms on form Layouts Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should submit inline form",
+              "fullTitle": "Should correctly submit all forms on form Layouts Page should submit inline form",
+              "timedOut": null,
+              "duration": 10864,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_formLayoutsPage.onFormLayoutsPage.submit_inline_form('Fahim', 'Arshad');",
+              "err": {},
+              "uuid": "613b1d1c-0153-46e3-91e3-b49b1b1ae8a0",
+              "parentUUID": "8e792976-b3ed-421d-98b6-056663e01d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should submit basic form",
+              "fullTitle": "Should correctly submit all forms on form Layouts Page should submit basic form",
+              "timedOut": null,
+              "duration": 9088,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_formLayoutsPage.onFormLayoutsPage.submit_basic_form('fahim.arshad@devsinc.com', 'fahimarshad');",
+              "err": {},
+              "uuid": "e7ce7651-2ce4-4877-b52e-f3eb177c9671",
+              "parentUUID": "8e792976-b3ed-421d-98b6-056663e01d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should submit Using the Grid Form",
+              "fullTitle": "Should correctly submit all forms on form Layouts Page should submit Using the Grid Form",
+              "timedOut": null,
+              "duration": 8560,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_formLayoutsPage.onFormLayoutsPage.submit_using_the_grid_form('fahim.arshad@devsinc.com', 'fahimarshad');",
+              "err": {},
+              "uuid": "d8c29423-a34c-4107-9f7a-05e2d7918772",
+              "parentUUID": "8e792976-b3ed-421d-98b6-056663e01d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should check that radio buttons are functioning correctly",
+              "fullTitle": "Should correctly submit all forms on form Layouts Page should check that radio buttons are functioning correctly",
+              "timedOut": null,
+              "duration": 5195,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_formLayoutsPage.onFormLayoutsPage.check_radio_buttons();",
+              "err": {},
+              "uuid": "469f4036-2533-4123-983e-298146b1e111",
+              "parentUUID": "8e792976-b3ed-421d-98b6-056663e01d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should check that using the Grid Form third radio button is disabled",
+              "fullTitle": "Should correctly submit all forms on form Layouts Page should check that using the Grid Form third radio button is disabled",
+              "timedOut": null,
+              "duration": 3216,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_formLayoutsPage.onFormLayoutsPage.check_using_the_grid_form_third_radio_button_is_disabled();",
+              "err": {},
+              "uuid": "eb260c29-455b-401e-9b07-462bf96283aa",
+              "parentUUID": "8e792976-b3ed-421d-98b6-056663e01d72",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "613b1d1c-0153-46e3-91e3-b49b1b1ae8a0",
+            "e7ce7651-2ce4-4877-b52e-f3eb177c9671",
+            "d8c29423-a34c-4107-9f7a-05e2d7918772",
+            "469f4036-2533-4123-983e-298146b1e111",
+            "eb260c29-455b-401e-9b07-462bf96283aa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 36923,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e153e907-2b3c-476f-8777-d05b2d6c1d84",
+      "title": "",
+      "fullFile": "cypress/integration/navigationBarTestCases.spec.js",
+      "file": "cypress/integration/navigationBarTestCases.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b74903e6-f118-4a7a-9759-3d43c91fb417",
+          "title": "testCasesWIthPageObjectDesignPattern",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify navigation across the pages",
+              "fullTitle": "testCasesWIthPageObjectDesignPattern verify navigation across the pages",
+              "timedOut": null,
+              "duration": 25842,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_navigationBar.navigateTo.stepperPage();\n_navigationBar.navigateTo.accordionPage();\n_navigationBar.navigateTo.formLayoutsPage();\n_navigationBar.navigateTo.datePickerPage();\n_navigationBar.navigateTo.dialogPage();\n_navigationBar.navigateTo.windowPage();\n_navigationBar.navigateTo.popoverPage();\n_navigationBar.navigateTo.toastrPage();\n_navigationBar.navigateTo.toolTipPage();\n_navigationBar.navigateTo.calendarPage();\n_navigationBar.navigateTo.smartTablePage();\n_navigationBar.navigateTo.treeGridPage();\n_navigationBar.navigateTo.loginPage();\n_navigationBar.navigateTo.registerPage();\n_navigationBar.navigateTo.requestPasswordPage(); // navigateTo.resetPasswordPage()",
+              "err": {},
+              "uuid": "99cff4be-bdf6-4915-a57f-c6689dc54eb5",
+              "parentUUID": "b74903e6-f118-4a7a-9759-3d43c91fb417",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "99cff4be-bdf6-4915-a57f-c6689dc54eb5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 25842,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "252b8da3-5e53-4b33-b4ba-f354de68145e",
+      "title": "",
+      "fullFile": "cypress/integration/smartTablePageTestCases.spec.js",
+      "file": "cypress/integration/smartTablePageTestCases.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "679bc41e-93a9-4d40-bb62-117a7f2ad0a7",
+          "title": "To test table EDIT functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should verify that changes in any field are edited correctly",
+              "fullTitle": "To test table EDIT functionality Should verify that changes in any field are edited correctly",
+              "timedOut": null,
+              "duration": 14196,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_table_edit_functionality('10', 'SampleFN', 'SampleLN', '@sampleUN', 'sample@email.com', '24');",
+              "err": {},
+              "uuid": "98f63732-f198-407d-8245-37c48c9dc993",
+              "parentUUID": "679bc41e-93a9-4d40-bb62-117a7f2ad0a7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "98f63732-f198-407d-8245-37c48c9dc993"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14196,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "688f8b5a-cb7b-4610-b4b1-9d9e458f69b7",
+          "title": "To test table ADD functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should verify that the data is added in the table successfully",
+              "fullTitle": "To test table ADD functionality Should verify that the data is added in the table successfully",
+              "timedOut": null,
+              "duration": 12307,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_add_functionality('101', 'SampleFN1', 'SampleLN1', '@sampleUN1', 'sample1@email.com', '26');",
+              "err": {},
+              "uuid": "ea3471d9-eb38-4851-b705-59c907c75749",
+              "parentUUID": "688f8b5a-cb7b-4610-b4b1-9d9e458f69b7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ea3471d9-eb38-4851-b705-59c907c75749"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12307,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "2a0c7fe7-6f3f-42ad-a10a-12ce8b7deda2",
+          "title": "To test table DELETE functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should verify that the specific row is deleted from the table successfully",
+              "fullTitle": "To test table DELETE functionality Should verify that the specific row is deleted from the table successfully",
+              "timedOut": null,
+              "duration": 5569,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_table_delete_functionaity();",
+              "err": {},
+              "uuid": "fc7897e6-715b-429e-aadb-9f14ad92f4b0",
+              "parentUUID": "2a0c7fe7-6f3f-42ad-a10a-12ce8b7deda2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fc7897e6-715b-429e-aadb-9f14ad92f4b0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5569,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "14971f71-5540-4048-b0f5-d457ff067498",
+          "title": "To test table SEARCH functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should verify that search by age functionality is working correctly",
+              "fullTitle": "To test table SEARCH functionality Should verify that search by age functionality is working correctly",
+              "timedOut": null,
+              "duration": 8692,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const age = [20, 30, 40];\n_smartTablePage.onSmartTablePage.check_search_by_age_functionality(age);",
+              "err": {},
+              "uuid": "91516aa6-a815-4da1-acf7-4854578a9fdd",
+              "parentUUID": "14971f71-5540-4048-b0f5-d457ff067498",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should verify that when no data is found against a search parameter then appropriate msg is displayed",
+              "fullTitle": "To test table SEARCH functionality Should verify that when no data is found against a search parameter then appropriate msg is displayed",
+              "timedOut": null,
+              "duration": 4900,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_table_reponse_when_no_data_is_found('180');",
+              "err": {},
+              "uuid": "585b55fb-3aea-4698-bad5-9731cd30724d",
+              "parentUUID": "14971f71-5540-4048-b0f5-d457ff067498",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "91516aa6-a815-4da1-acf7-4854578a9fdd",
+            "585b55fb-3aea-4698-bad5-9731cd30724d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13592,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5ed93fda-0d74-4da8-99ab-7d5887bc0334",
+          "title": "To test table PAGINATION",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should verify that by default 1st page is opened",
+              "fullTitle": "To test table PAGINATION Should verify that by default 1st page is opened",
+              "timedOut": null,
+              "duration": 3509,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_table_default_page();",
+              "err": {},
+              "uuid": "f704050e-9aee-4766-b5ab-e43756a14a01",
+              "parentUUID": "5ed93fda-0d74-4da8-99ab-7d5887bc0334",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should verify when on page 1 the previous page paginations are disabled",
+              "fullTitle": "To test table PAGINATION Should verify when on page 1 the previous page paginations are disabled",
+              "timedOut": null,
+              "duration": 3481,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_pagination_is_disabled('previous');",
+              "err": {},
+              "uuid": "e3668c46-b318-496f-bfcf-aa60772b7aae",
+              "parentUUID": "5ed93fda-0d74-4da8-99ab-7d5887bc0334",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should verify when on last page the next page paginations are disabled",
+              "fullTitle": "To test table PAGINATION Should verify when on last page the next page paginations are disabled",
+              "timedOut": null,
+              "duration": 4353,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_smartTablePage.onSmartTablePage.check_pagination_is_disabled('next');",
+              "err": {},
+              "uuid": "c3a49df8-23fb-4c62-aad4-ea5c3c8577ae",
+              "parentUUID": "5ed93fda-0d74-4da8-99ab-7d5887bc0334",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f704050e-9aee-4766-b5ab-e43756a14a01",
+            "e3668c46-b318-496f-bfcf-aa60772b7aae",
+            "c3a49df8-23fb-4c62-aad4-ea5c3c8577ae"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11343,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "588eac79-14a0-4c56-aece-c998ab86e0a3",
+      "title": "",
+      "fullFile": "cypress/integration/treeGridPageTestCases.spec.js",
+      "file": "cypress/integration/treeGridPageTestCases.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b65b42cd-1824-4a6d-b81a-669ac87ec7f6",
+          "title": "To test Grid Collape-expand funtionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "to verify the collapse and expand functionality of the Grids",
+              "fullTitle": "To test Grid Collape-expand funtionality to verify the collapse and expand functionality of the Grids",
+              "timedOut": null,
+              "duration": 7280,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_treeGridPage.onTreeGridPage.check_grid_expand_collapse_functionality();",
+              "err": {},
+              "uuid": "64968461-cbfe-4278-91db-2f71fc656466",
+              "parentUUID": "b65b42cd-1824-4a6d-b81a-669ac87ec7f6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "64968461-cbfe-4278-91db-2f71fc656466"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7280,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

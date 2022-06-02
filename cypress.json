@@ -11,5 +11,9 @@
     "runMode": 2,
     "openMode": 1
   },
-  "trashAssetsBeforeRuns": true
+  "trashAssetsBeforeRuns": true,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
 }

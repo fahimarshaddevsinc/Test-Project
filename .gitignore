@@ -43,3 +43,5 @@ Thumbs.db
 #cypress
 /cypress/videos/
 /cypress/screenshots/
+/cypress/results/
+/mochawesome-report/
