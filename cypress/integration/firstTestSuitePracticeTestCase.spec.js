@@ -56,7 +56,7 @@ describe("1st Test Suite", () => {
             expect(label.text()).to.equal('Email address')
         })
 
-        cy.contains('Basic form').
+        cy.contains('nb-card','Basic form').
             find('.custom-checkbox').
             click()
 
@@ -105,12 +105,15 @@ describe("1st Test Suite", () => {
         cy.get('nav nb-select').click().then( dropdown => {
             cy.wrap(dropdown).get('nav nb-select'). then( dropdownDefaultText => {
                 cy.wrap(dropdown).get('.options-list .ng-star-inserted').each( options => {
+
                     const dropdownOptions = options.text().trim()
                     
-                    cy.wrap(dropdown).click()
+                    cy.wrap(options).click()
                     cy.wrap(dropdownDefaultText)
                     .should('contain', dropdownOptions)
+                    cy.wrap(dropdown).click()
                 })
+                cy.wrap(dropdown).click()
             })
         })
     })

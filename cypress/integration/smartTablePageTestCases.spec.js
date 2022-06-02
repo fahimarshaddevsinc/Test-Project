@@ -12,9 +12,9 @@ describe('To test table EDIT functionality', () => {
         onSmartTablePage.check_table_edit_functionality('10', 'SampleFN', 'SampleLN', '@sampleUN', 'sample@email.com', '24')
     })
 
-    it('Should verify validations on First Name field', () => {
-        onSmartTablePage.check_first_name_field_validations('@fahim')
-    })
+    // it('Should verify validations on First Name field', () => {
+    //     onSmartTablePage.check_first_name_field_validations('@fahim')
+    // })
 })
 
 describe('To test table ADD functionality', () => {
