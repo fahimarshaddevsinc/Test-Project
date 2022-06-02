@@ -33,7 +33,9 @@
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
     "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "cypress:run": "npx cypress run",
-    "cypress:e2e": "start-test start http://localhost:4200 cypress:run && npm run junit:merge && npm run mochawesome:merge"
+    "cypress:run_on_all_browsers": "npm run cypress:run -- --browser firefox & npm run cypress:run -- --browser chrome & npm run cypress:run -- --browser edge",
+    "cypress:e2e": "start-test start http://localhost:4200 cypress:run && npm run junit:merge && npm run mochawesome:merge",
+    "cypress:e2e_on_all_browsers": "start-test start http://localhost:4200 cypress:run_on_all_browsers && npm run junit:merge && npm run mochawesome:merge"
   },
   "dependencies": {
     "@agm/core": "^1.1.0",
