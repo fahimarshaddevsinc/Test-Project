@@ -32,8 +32,9 @@
     "report": "cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json",
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
     "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
-    "cypress:run": "npx cypress run",
-    "cypress:run_on_all_browsers": "npm run cypress:run -- --browser firefox & npm run cypress:run -- --browser chrome & npm run cypress:run -- --browser edge",
+    "cypress:run": "npx cypress run --record --key 47e6e801-9f5b-4b66-af64-05e50a5999c6",
+    "cypress:run_multiple_browsers": "npx cypress run --record --key 47e6e801-9f5b-4b66-af64-05e50a5999c6 --parallel",
+    "cypress:run_on_all_browsers": "npm run cypress:run_multiple_browsers -- --browser firefox --group Firefox --ci-build-id 11 & npm run cypress:run -- --browser chrome --group Chrome --ci-build-id 11 & npm run cypress:run -- --browser edge --group Edge --ci-build-id 11",
     "cypress:e2e": "start-test start http://localhost:4200 cypress:run && npm run junit:merge && npm run mochawesome:merge",
     "cypress:e2e_on_all_browsers": "start-test start http://localhost:4200 cypress:run_on_all_browsers && npm run junit:merge && npm run mochawesome:merge"
   },
