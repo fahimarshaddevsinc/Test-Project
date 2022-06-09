@@ -148,6 +148,14 @@ export class formLayoutsPage {
     check_using_the_grid_form_third_radio_button_is_disabled() {
         this.elements.using_grid_form_third_radio_button().should('be.disabled')
     }
+
+    check_using_the_grid_form_email_field_validation(email) {
+        this.enter_using_grid_form_email(email)
+        this.click_using_the_grid_form_signin_button()
+        this.elements.using_grid_form_email_field()
+            .invoke('prop', 'validationMessage')
+            .should('contain', 'Please include an \'@\' in the email address. \'' + email + '\' is missing an \'@\'.')
+    }
 }
 
 export const onFormLayoutsPage = new formLayoutsPage() 
