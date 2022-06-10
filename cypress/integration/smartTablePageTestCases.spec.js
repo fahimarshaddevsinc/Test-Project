@@ -11,10 +11,10 @@ describe('To test table EDIT functionality', () => {
     it('verify if the changes made in any field are edited correctly', () => {
         onSmartTablePage.check_table_edit_functionality('10', 'SampleFN', 'SampleLN', '@sampleUN', 'sample@email.com', '24')
     })
-
-    it('verify if the validations on First Name field are correct', () => {
-        onSmartTablePage.check_first_name_field_validations('@fahim')
-    })
+  
+    // it('Should verify validations on First Name field', () => {
+    //     onSmartTablePage.check_first_name_field_validations('@fahim')
+    // })
 })
 
 describe('To test table ADD functionality', () => {
@@ -59,7 +59,8 @@ describe('To test table SEARCH functionality', () => {
     })
 })
 
-describe.only('To test table PAGINATION', () => {
+describe ('To test table PAGINATION', () => {
+    
 
     beforeEach('check smart table is opening', () => {
         cy.visit('/')

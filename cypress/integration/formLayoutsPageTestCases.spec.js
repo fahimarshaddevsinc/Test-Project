@@ -20,6 +20,10 @@ describe('Should correctly submit all forms on form Layouts Page', () => {
         onFormLayoutsPage.submit_using_the_grid_form('fahim.arshad@devsinc.com', 'fahimarshad')
     })
 
+    it.only('should verify validations on email field in Using the Grid Form', () => {
+        onFormLayoutsPage.check_using_the_grid_form_email_field_validation('fahimarshad')
+    })
+
     it('should check that radio buttons are functioning correctly', () => {
         onFormLayoutsPage.check_radio_buttons()
     })
