@@ -6,7 +6,7 @@ name: Run Cypress e2e on push
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
       
 jobs:
   cypress-test:
